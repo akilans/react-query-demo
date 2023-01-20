@@ -22,6 +22,12 @@ const Navbar = () => {
               <NavLink to="employees">Employees</NavLink>
             </li>
             <li>
+              <NavLink to="rqemployees">RQ Employees</NavLink>
+            </li>
+            <li>
+              <NavLink to="employee/add">Add Employee</NavLink>
+            </li>
+            <li>
               <NavLink onClick={auth.logout}>Logout</NavLink>
             </li>
             <h1>User - {auth.user}</h1>
