@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import "./App.css";
 import AddEmployee from "./components/AddEmployee";
 import Dashboard from "./components/Dashboard";
+import UpdateEmployee from "./components/EditEmployee";
 import Employee from "./components/Employee";
 import Employees from "./components/Employees";
 import Home from "./components/Home";
@@ -23,6 +24,7 @@ function App() {
           <Route path="employee">
             <Route path=":emp_id" element={<Employee />} />
             <Route path="add" element={<AddEmployee />} />
+            <Route path="update/:emp_id" element={<UpdateEmployee />} />
           </Route>
 
           <Route path="rqemployees" element={<RQemployees />} />

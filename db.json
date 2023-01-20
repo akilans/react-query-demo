@@ -15,46 +15,11 @@
       "designation": "Telecom Engineer"
     },
     {
-      "id": 3,
-      "name": "Jegan",
-      "age": 33,
+      "designation": "Network Engineer",
       "location": "Coimbatore",
-      "designation": "Network Engineer"
-    },
-    {
-      "designation": "trainee",
-      "location": "tenkasi",
-      "age": 5,
-      "name": "inba",
-      "id": 4
-    },
-    {
-      "designation": "trainee",
-      "location": "tenkasi",
-      "age": 3,
-      "name": "iniya",
-      "id": 5
-    },
-    {
-      "designation": "trainee",
-      "location": "tenkasi",
-      "age": 8,
-      "name": "jeevan",
-      "id": 6
-    },
-    {
-      "designation": "trainee",
-      "location": "tenkasi",
-      "age": 4,
-      "name": "Devops ",
-      "id": 7
-    },
-    {
-      "designation": "trainee",
-      "location": "tenkasi",
-      "age": 9,
-      "name": "Devops ",
-      "id": 8
+      "age": 33,
+      "name": "Jegan",
+      "id": 3
     }
   ]
 }

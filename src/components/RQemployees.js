@@ -43,8 +43,9 @@ const RQemployees = () => {
           {data?.data.map((emp) => {
             return (
               <>
-                <Link to={`/employee/${emp.id}`}>{emp.name}</Link>
                 <tr key={emp.id}>
+                  <Link to={`/employee/${emp.id}`}>View</Link>
+                  <Link to={`/employee/update/${emp.id}`}>Update</Link>
                   <td>{emp.id}</td>
                   <td>{emp.name}</td>
                   <td>{emp.age}</td>
